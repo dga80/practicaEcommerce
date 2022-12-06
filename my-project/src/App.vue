@@ -19,7 +19,7 @@ export default {
   <article class="flex justify-around">
     <div>
       <ul v-for="item of items">
-        <li class="pb-20" v-if="active"></li>
+        <li class="pb-20">{{item.name}}</li>
       </ul>
     </div>
     <div>
