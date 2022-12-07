@@ -22,7 +22,7 @@
   <style scoped>
   ul {
     display: flex;
-    gap: 4em;
+    gap: 5em;
   }
   li {
     list-style-type: none;

@@ -1,8 +1,9 @@
 <template class="template">
   <div>
-    <header class="pb-[50px]">
-      <img src="./assets/vue.svg" width="32" />
+    <header class="flex pb-[50px] relative">
+      <img src="./assets/vue.svg" width="32"/>
       <div>My Ecommerce Cart</div>
+      <img src="./assets/cart-48.png" width="32"  class="absolute right-12"/>
       <div class="w-10 border-2 border-slate-400 rounded-lg text-center">{{ numberOfItems }}</div>
     </header>
       <table>
