@@ -19,13 +19,12 @@
 
         <tbody>
           <tr v-for="(item, index) of items" :key="index">
-            <td>{{ index }}</td>
-            <td>{{ item.name }}</td>
+            <td>{{index}}</td>
+            <td>{{item.name}}</td>
             <td><img :src="item.image" :alt="item.name" width="70" /></td>
-            <td>{{ item.price }}€</td>
+            <td>{{item.price}}€</td>
             <td>
-              <input
-                class="text-right border-2 border-slate-200"
+              <input class="text-right border-2 border-slate-200"
                 type="number"
                 v-model.number="item.quantity"
                 placeholder="0"
